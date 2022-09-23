@@ -1,0 +1,7 @@
+#Gabriel CLaude-Giroux 405
+
+chaine = input("entrez le texte que vous voulez analizer ") #on va ecrire notre texte pour analyzer le nombre de mots
+def word_count():
+    print(len(chaine.split(" ")))
+word_count()#ca imprime le nombre de mots
+
